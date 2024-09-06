@@ -12,6 +12,7 @@
 		63607C6F2C80B20700520C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63607C6E2C80B20700520C16 /* Assets.xcassets */; };
 		63607C722C80B20700520C16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63607C712C80B20700520C16 /* Preview Assets.xcassets */; };
 		63607C7A2C80B9D100520C16 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63607C792C80B9D100520C16 /* ScannerVC.swift */; };
+		63CBC55C2C8AFD7A00AD7C96 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CBC55B2C8AFD7A00AD7C96 /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		63607C712C80B20700520C16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		63607C782C80B8AA00520C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		63607C792C80B9D100520C16 /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		63CBC55B2C8AFD7A00AD7C96 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,10 @@
 				63607C782C80B8AA00520C16 /* Info.plist */,
 				63607C6A2C80B20600520C16 /* BarcodeScannerApp.swift */,
 				63607C6C2C80B20600520C16 /* BarcodeScannerView.swift */,
+				63607C792C80B9D100520C16 /* ScannerVC.swift */,
+				63CBC55B2C8AFD7A00AD7C96 /* ScannerView.swift */,
 				63607C6E2C80B20700520C16 /* Assets.xcassets */,
 				63607C702C80B20700520C16 /* Preview Content */,
-				63607C792C80B9D100520C16 /* ScannerVC.swift */,
 			);
 			path = BarcodeScanner;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63607C7A2C80B9D100520C16 /* ScannerVC.swift in Sources */,
+				63CBC55C2C8AFD7A00AD7C96 /* ScannerView.swift in Sources */,
 				63607C6D2C80B20600520C16 /* BarcodeScannerView.swift in Sources */,
 				63607C6B2C80B20600520C16 /* BarcodeScannerApp.swift in Sources */,
 			);
